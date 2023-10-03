@@ -1,0 +1,674 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;1,8..144,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--primaryFont);
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.5;
+    box-sizing: border-box;   
+}
+
+.header{
+ background-color: whitesmoke;
+ display: flex;
+ align-items: center;
+ padding: 20px;
+}
+
+.header-main,.nav-bar,.header-button{
+display: none;
+}
+
+.nav-item{
+ padding: 20px;
+}
+
+.nav-link:hover{
+    color: rgba(240, 142, 51, 0.995);    
+ }
+.head-button,.mobile-but{
+    border: none;
+    color: white;
+}
+.head-button:hover,.mobile-but:hover,.find-btn:hover,.join-btn:hover,.r:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(240, 142, 51, 0.995);
+}
+.header{
+    background-color: rgba(240, 142, 51, 0.995);
+}
+
+.mobile-nav{
+    width: 100%;
+    display: flex;
+}
+
+.mb-icon{
+    font-size: 35px;
+    color: white;
+}
+
+.Dreamhub{
+    width: 90%;
+}
+
+.dremhub-logo{
+    color: white;
+    font-size: 30px;
+}
+
+.hero{
+    background-image: url(../images/hero-bg.jpg);
+    height: 40rem;
+    background-position: top;
+    background-size: cover;
+}
+
+.hero-main{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-border{
+    border-bottom: 2px solid  rgba(240, 142, 51, 0.995);
+    width: 50%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.hero-head{
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+.hero-para{
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+   
+}
+
+.hero-btn{
+    padding-top: 20px;
+}
+
+.find-btn,.join-btn{
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 400;
+    border-radius: 5px;
+    border:1px solid  rgba(240, 142, 51, 0.995);
+}
+
+.find-btn,.input-btn{
+    background-color: rgba(240, 142, 51, 0.995);
+}
+
+.join-btn{
+    background-color: transparent;
+}
+
+.university-main{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: auto;
+    width: 90%;
+}
+
+.about-thumb{
+    width: 100%;
+}
+
+.univer-para{
+    padding-left: 45px;
+}
+
+.univer-head,.Recent-head{
+    color: rgb(47, 47, 111);
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.uni-para{
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.uni-link{
+    padding-top: 18px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.uni-links{
+    padding-left: 20px;
+}
+
+.set{
+    margin: 0%;
+    margin-top: 30px;
+}
+
+.academics{
+    padding-top: 70px;
+}
+
+.academics-main,.courses-main{
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.diploma{
+    padding: 10px 20px 10px 25px;
+    text-align: start;
+    width: 100%;
+    margin-top:20px;
+    box-shadow: 0px 0px 15px rgb(195, 189, 189);
+}
+
+.diploma-head,.creative-head{
+    font-size: 21px; 
+    color: rgb(47, 47, 111);
+}
+
+.diploma:hover{
+    border: 2px dotted  rgba(240, 142, 51, 0.995);
+}
+
+.courses{
+    padding-top: 75px;
+}
+
+.Recent-para{
+    padding: 10px 0px 60px 0px;
+}
+
+.creative-main{
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.course1{
+    width: 100%;
+}
+
+.course1:hover{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+    
+}
+
+.creative-para{
+    padding: 20px;
+    background-color: rgb(250, 248, 248);
+    border: 1px solid gray;
+}
+
+.creatives,.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.creative-hea{
+    background-color:  rgba(240, 142, 51, 0.995);
+    height: 35px;
+    width: 19%;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.crea{
+    color: white;
+    font-weight: 500;
+}
+
+.creative-heads,.foot-one{
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.Lessone-icon,.newyork-icon{
+    color:  rgba(240, 142, 51, 0.995);
+    padding-right: 10px;
+}
+
+.creat{
+    padding-top: 20px;
+}
+
+.foot-one{
+    padding-top: 30px;
+}
+
+.register{
+    background-image: url(../images/register\ thumb.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-top: 60px;
+    padding-top: 100px;
+}
+
+.gate{
+    padding: 15px;
+}
+
+.gate-one{
+    font-size: 17px;
+}
+
+.gate-head{
+    padding: 10px 0px 10px 0px;
+    font-size: 50px;
+}
+
+.happy-icon{
+    padding: 40px 0px 10px 0px;
+    text-align: center;
+}
+
+.stud{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.stud-one{
+    font-size: 18px
+}
+
+.request-input{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.input,.input-btn{
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    width: 90%;
+}
+
+.input-btn{
+    margin-bottom: 20px;
+}
+
+.gallery-main{
+    width: 90%;
+    padding: 50px 0px 0px 15px;
+
+}
+
+.gallery-btns{
+    padding: 50px 0px 30px 15px;
+}
+
+.gallery-btn{ 
+    background-color: rgb(240, 227, 227);
+    border-radius: 3px;
+    margin-right: 10px; 
+    border: none;
+    padding: 10px;
+}
+
+.gallery-btn:hover{
+    background-color:  rgba(240, 142, 51, 0.995);
+    color: white;
+}
+
+.protfolio-imgs{
+ text-align: center;
+}
+.protfolio-img:hover{
+    opacity: 0.6;
+}
+.protfolio-img{
+    margin: 5px;
+    width: 95%;
+}
+
+.events{
+    padding: 50px 0px 30px 15px;
+}
+
+.newyork-icon{
+    font-size: 18px;
+}
+
+.events-head{
+    font-size: 20px;
+    padding: 15px 0px 0px 0px;
+    color: rgb(47, 47, 111);
+}
+
+.event-type{
+    background-color:  rgba(240, 142, 51, 0.995);
+    height: 60px;
+    text-align: center;
+    padding-top: 17px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 6px;
+    width: 20%;
+}
+
+.newyork{
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.events-menu{
+    padding: 0px 0px 15px 15px;
+    background-color: rgb(250, 248, 248);
+}
+
+.plus-icon{
+    color: white;
+    background-color:  rgba(240, 142, 51, 0.995);
+    border-radius: 3px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.LearnPro{
+    padding-top: 20px;
+    color: rgb(47, 47, 111);
+    font-size: 18px;
+}
+
+.News{
+    padding-bottom: 35px;
+    width: 90%;
+    margin: auto;
+}
+
+.news-img{
+    width: 100%;
+}
+
+.News-main{
+    padding: 10px 0px 20px 15px; 
+    background-color: rgb(244, 241, 241);
+}
+
+.news-head{
+    color: rgb(47, 47, 111);
+    font-size: 16px;
+}
+
+.news-head:hover{
+    color:  rgba(240, 142, 51, 0.995);
+}
+
+.news-para{
+    padding: 12px 0px 0px 0px; 
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.news-by{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-main{
+    padding: 20px 0px 20px 15px;
+}
+
+.footer-para{
+    width: 90%;
+    padding: 20px 0px 20px 0px;
+}
+
+.mail{
+    font-size: 20px;
+    padding-right: 16px;
+}
+
+.footer-icons{
+    padding-top: 20px;
+}
+
+.footer-icon{
+   padding-right: 15px;
+    font-size: 20px;
+}
+
+.useful-link{
+    padding-top: 10px;
+}
+
+.useful-links{
+    color: white;
+}
+
+.useful-links:hover,.footer-icon:hover,.php:hover{
+    color:  rgba(240, 142, 51, 0.995);
+}
+
+.useful-head{
+    padding: 20px 0px 20px 0px;
+}
+
+.php{
+    font-size: 15px;
+}
+
+.php-p{
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.php-main{
+    padding-top: 20px;
+}
+
+.footerrow{
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 2px solid rgba(240, 142, 51, 0.995);
+}
+
+.Copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* tab-view */
+
+@media (min-width: 768px){
+
+    .hero-heads{
+        font-size: 20px;
+    }
+    .bottom-border{
+        width: 30%;
+    }
+    .hero-head,.Recent-head{
+        font-size: 40px;
+    }
+    .hero-para{
+        width: 50%;
+    }
+    .univer-img{
+        display: flex;
+    }
+    .about-thumb{
+        margin: auto;
+        height: 55%;
+        width: 55%;
+    }
+    .find-btn,.join-btn{
+        font-size: 18px;
+        width: 25%;
+    }
+    .set{
+        font-size: 18px;
+        width: 65%;
+    }
+    .c{
+        padding-top: 20px;
+        font-size: 35px;
+    }
+    .d,.Recent-para{
+        width: 70%;
+        margin: auto;
+    }
+    .hero-main{
+        height: 39rem;
+    }
+    .ff,.creative,.protfolio-imgs,.News-mains{
+        display: flex;
+        flex-direction: row ;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+    }
+    .diploma,.News{
+        width: 45%;
+    }
+    .creative-main,.protfolio-img{
+        width: 47%; 
+    }
+    .gates{
+        display: flex;
+    }
+    .request-input{
+        margin: auto;
+        width: 65%;
+    }
+    .events-main,.footer-main{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Reent{
+        width: 47%;
+    }
+    .w{
+        font-size: 30px;
+    }
+
+}
+
+
+/* Desktop View */
+
+@media(min-width:992px){
+
+    .header{
+        background-color: white;
+        justify-content: space-evenly;
+    }
+    .hero-head{
+        font-size: 50px;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    .university-main{
+        padding-top: 130px;
+        width: 75%;
+    }
+    .b{
+        margin-bottom: 30px;
+    }
+       
+    .header-main,.nav-bar,.header-button{
+        display: flex;
+     }
+     .head-button,.mobile-but{
+         font-size: 15px;
+         border-radius: 3px;
+         height: 40px;
+         width: 100px;
+         background-color: rgba(240, 142, 51, 0.995);
+     }
+     .hero-main{
+         height: 47rem;
+     }
+     .find-btn,.join-btn{
+        font-size: 15px;
+        width: 15%;
+    }
+    .set,.d,.Recent-para{
+        padding: 12px;
+        width: 46%;
+    }
+    .univer-head{
+        font-size: 35px;
+    }
+    .ff,.creative,.protfolio-imgs{
+        display: flex;
+        flex-direction: row ;
+        flex-wrap:wrap;
+    }
+    .diploma{
+        width: 31%;
+    }
+    .gate{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .creative,.gallery,.events,.News-mains{
+        width: 90%;
+        margin: auto;
+    }
+    .creative-main,.a,.News{
+        width: 32%;
+    }
+    .protfolio-img{
+        width: 24%;
+    }
+    .events-menu{
+        padding: 25px;
+    }
+    .Reent{
+        width: 35%;
+    }
+    .request-input{
+        width: 30%;
+        background-color: rgb(62, 53, 53);
+        padding-bottom: 20px;
+    }
+    .foot-dj{
+        width: 20%;
+    }
+    .footer-img{
+        padding-top: 30px;
+    }
+    .footer-main,.gates{
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+    }
+}
+
+
+
